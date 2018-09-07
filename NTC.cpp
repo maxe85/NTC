@@ -5,7 +5,8 @@ NTC::NTC( uint8_t pin, uint16_t B, uint8_t nR, uint8_t preR) :
 	__pin(pin),
 	__B(B),
 	__nominalR(nR),
-	__preR(preR){}
+	__preR(preR)
+{}
 
 float NTC::get()
 {
